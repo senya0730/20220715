@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>バイク王</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="../lib/main.css" >
+        <link rel="stylesheet" href="../css/test.css" >
+        <script src="../lib/main.js"></script>
+        <script src="../js/script.js"></script>
+        <link rel="stylesheet" href="../css/test.css" >
+    </head>
+    <body>
+        <header>
+            <div class="header-left">
+                <img class="logo" src="../img/logo.png">
+            </div>
+            <div class="header-right">
+                <a href="../admin_login.html" class="login">ログアウト</a>
+            </div> 
+        </header>
+        <div class="top-body">
+            <button class="body-btn" onclick="location.href='../main.html'">トップ</button>
+            <button class="body-btn" onclick="location.href='estimate.html'">見積</button>
+            <button class="body-btn" onclick="location.href='order.html'">発注</button>
+            <button class="body-btn">業者管理</button>
+            <button class="body-btn" onclick="location.href='zaaiko.html'">在庫管理</button><br>
+            <button class="body-btn" onclick="location.href='keiri.html'">経理連携</button>
+            <button class="body-btn" onclick="location.href='payment.html'">契約連携</button>
+            <button class="body-btn">B-Pro連携</button>
+        </div>
+
+        <!-- トリガーの部分 -->
+        <p class="nav-open active">メニュー</p>
+        <!-- メニューの部分 -->
+        <nav>
+            <ul>
+            <li><a href="../main.html">トップ</a></li>
+            <li><a href="estimate.html">見積</a></li>
+            <li><a href="order.html">発注</a></li>
+            <li><a href="../main.html">業者管理</a></li>
+            <li><a href="zaaiko.html">在庫管理</a></li>
+            <li><a href="keiri.html">経理連携</a></li>
+            <li><a href="payment.html">契約連携</a></li>
+            <li><a href="../main.html">B-Pro連携</a></li>
+
+            </ul>
+        </nav>
+
+
+        <div class="main">
+            <p class="main-title">見積書作成</p>
+            <form action="#" method="manufacturer">
+            <p>メーカー: <input type="text" name="mail"></p>
+            <form action="#" method="type">
+            <p>　タイプ: <input type="text" name="mail"></p>
+            <form action="#" method="displacement">
+            <p>　排気量: <input type="text" name="mail"></p>
+            <form action="#" method="bike name">
+            <p>バイク名: <input type="text" name="mail"></p>
+            <form action="#" method="mileage">
+            <p>走行距離: <input type="text" name="mail"></p>
+            <p>店舗一覧</p>
+            <p class="checkbox-main">北海道・東北エリア</p>
+            <p class="checkbox-body">
+                <input type="checkbox" name="riyu" value="1">仙台店
+                <input type="checkbox" name="riyu" value="2">盛岡店
+                <input type="checkbox" name="riyu" value="3">ラパークいわき店
+                <input type="checkbox" name="riyu" value="4">郡山店
+            </p>        
+            <p class="checkbox-main">信越・北陸エリア</p>
+            <p class="checkbox-body">
+                <input type="checkbox" name="riyu" value="5">長野店
+                <input type="checkbox" name="riyu" value="6">金沢店
+                <input type="checkbox" name="riyu" value="7">新潟店
+            </p>
+            <p class="checkbox-main">関東エリア</p>
+            <p class="checkbox-body">
+                <input type="checkbox" name="riyu" value="8">仙台店
+                <input type="checkbox" name="riyu" value="9">盛岡店
+                <input type="checkbox" name="riyu" value="10">ラパークいわき店
+                <input type="checkbox" name="riyu" value="3">郡山店
+            </p>
+            <p class="checkbox-main">東海エリア</p>
+            <p class="checkbox-body">
+                <input type="checkbox" name="riyu" value="1">仙台店
+                <input type="checkbox" name="riyu" value="2">盛岡店
+                <input type="checkbox" name="riyu" value="3">ラパークいわき店
+                <input type="checkbox" name="riyu" value="3">郡山店
+            </p>
+            <p class="checkbox-main">関西エリア</p>
+            <p class="checkbox-body">
+                <input type="checkbox" name="riyu" value="1">仙台店
+                <input type="checkbox" name="riyu" value="2">盛岡店
+                <input type="checkbox" name="riyu" value="3">ラパークいわき店
+                <input type="checkbox" name="riyu" value="3">郡山店
+            </p>
+            <p class="checkbox-main">中国・四国エリア</p>
+            <p class="checkbox-body">
+                <input type="checkbox" name="riyu" value="1">仙台店
+                <input type="checkbox" name="riyu" value="2">盛岡店
+                <input type="checkbox" name="riyu" value="3">ラパークいわき店
+                <input type="checkbox" name="riyu" value="3">郡山店
+            </p>
+            <p class="checkbox-main">九州・沖縄エリア</p>
+            <p class="checkbox-body">
+                <input type="checkbox" name="riyu" value="1">仙台店
+                <input type="checkbox" name="riyu" value="2">盛岡店
+                <input type="checkbox" name="riyu" value="3">ラパークいわき店
+                <input type="checkbox" name="riyu" value="3">郡山店
+            </p>
+            <button class="main-btn">見積</button> 
+        </div>
+
+        
+
+    </body>
+    <footer>
+    </footer>
+</html>

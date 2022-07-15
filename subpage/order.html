@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>バイク王</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="../lib/main.css" >
+        <link rel="stylesheet" href="../css/test.css" >
+        <script src="../lib/main.js"></script>
+        <script src="../js/script.js"></script>
+        <link rel="stylesheet" href="../css/test.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="header-left">
+                <img class="logo" src="../img/logo.png">
+            </div>
+            <div class="header-right">
+                <a href="../admin_login.html" class="login">ログアウト</a>
+            </div> 
+        </header>
+        <div class="top-body">
+            <button class="body-btn" onclick="location.href='../main.html'">トップ</button>
+            <button class="body-btn" onclick="location.href='estimate.html'">見積</button>
+            <button class="body-btn" onclick="location.href='order.html'">発注</button>
+            <button class="body-btn">業者管理</button>
+            <button class="body-btn" onclick="location.href='zaaiko.html'">在庫管理</button><br>
+            <button class="body-btn" onclick="location.href='keiri.html'">経理連携</button>
+            <button class="body-btn" onclick="location.href='payment.html'">契約連携</button>
+            <button class="body-btn">B-Pro連携</button>
+        </div>
+
+        <!-- トリガーの部分 -->
+        <p class="nav-open active">メニュー</p>
+        <!-- メニューの部分 -->
+        <nav>
+            <ul>
+            <li><a href="../main.html">トップ</a></li>
+            <li><a href="estimate.html">見積</a></li>
+            <li><a href="order.html">発注</a></li>
+            <li><a href="../main.html">業者管理</a></li>
+            <li><a href="zaaiko.html">在庫管理</a></li>
+            <li><a href="keiri.html">経理連携</a></li>
+            <li><a href="payment.html">契約連携</a></li>
+            <li><a href="../main.html">B-Pro連携</a></li>
+
+            </ul>
+        </nav>
+
+
+        <div class="main">
+            <p class="main-title">発注書作成</p>
+            <form action="#" method="company">
+            <p>会社名: <input type="text" name="mail"></p>
+            <form action="#" method="product">
+            <p>製　品: <input type="text" name="mail"></p>
+            <form action="#" method="quantity">
+            <p>個　数: <input type="text" name="mail"></p>
+            <button class="main-btn">発注</button> 
+        </div>
+    </body>
+    <footer>
+    </footer>
+</html>
